@@ -1,0 +1,15 @@
+{
+  "name": "sprout-automation",
+  "version": "1.0.0",
+  "description": "Sprout Layer 2 - Browser automation with Playwright",
+  "main": "agent/run-managed.js",
+  "scripts": {
+    "dev": "node agent/run-demo.js",
+    "run:managed": "node agent/run-managed.js"
+  },
+  "dependencies": {
+    "playwright": "^1.43.0",
+    "node-fetch": "^3.3.2",
+    "dotenv": "^16.4.5"
+  }
+}
